@@ -28,7 +28,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-
+  <!-- Google Captcha  -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -768,8 +769,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://submit-form.com/xczJ3ad2p" class="php-email-form">
-              <div class="g-recaptcha" data-sitekey="6Le0xc4qAAAAALwEk69JtIYffIUnySLF_2Aut7Gy"></div>
+            <form method="POST" action="https://submit-form.com/xczJ3ad2p" class="php-email-form">
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" placeholder=" Name" required="" />
  <br><br>
@@ -778,7 +778,8 @@
  <br><br>
  <label for="message">Message:</label><br>
   <textarea id="message" name="message" placeholder="" required=""></textarea>
-<br><br><button type="submit">Send</button>
+<br><div class="g-recaptcha" data-sitekey="6Le0xc4qAAAAALwEk69JtIYffIUnySLF_2Aut7Gy"></div>
+<br><button type="submit">Send</button>
             </form>
           </div>
         </div>
