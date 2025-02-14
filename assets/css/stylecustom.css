@@ -1,0 +1,27 @@
+/* CSS Added by Jake */
+
+.contact .php-email-form .control-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact .php-email-form label {
+    width: 100px;
+    font-size: 18px;
+}
+
+.contact .php-email-form .submit-button {
+    padding-top: 15px;
+}
