@@ -18,10 +18,27 @@ input[type="tel"] {
 }
 
 .contact .php-email-form label {
-    width: 100px;
+    width: 30%;
     font-size: 18px;
 }
 
 .contact .php-email-form .submit-button {
     padding-top: 15px;
+}
+
+.contact .php-email-form .checkbox {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.contact .php-email-form .checkbox::before {
+}
+
+.contact .php-email-form label .checkbox {
+    width: 45%;
+}
+
+.contact .php-email-form .g-recaptcha {
+    margin: auto;
+    width: 50%;
 }
