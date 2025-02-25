@@ -14,6 +14,7 @@ input[type="tel"] {
     width: 30%;
     font-size: 18px;
     vertical-align: top;
+    padding-bottom: 3px;
 }
 
 .contact .php-email-form .submit-button {
