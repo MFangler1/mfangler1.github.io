@@ -14,7 +14,6 @@ input[type="tel"] {
     width: 30%;
     font-size: 18px;
     vertical-align: top;
-    padding-bottom: 3px;
 }
 
 .contact .php-email-form .submit-button {
@@ -28,10 +27,15 @@ input[type="tel"] {
 }
 
 .contact .php-email-form .g-recaptcha {
-    margin: auto;
-    width: 50%;
+margin: 15px auto !important;
+width: auto !important;
+height: auto !important;
+text-align: -webkit-center;
+text-align: -moz-center;
+text-align: -o-center;
+text-align: -ms-center;
 }
 
 .contact .php-email-form input {
-    height: auto;
+    margin-bottom: 5px;
 }
