@@ -1,12 +1,5 @@
 /* CSS Added by Jake */
 
-.contact .php-email-form .control-group {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
@@ -20,6 +13,7 @@ input[type="tel"] {
 .contact .php-email-form label {
     width: 30%;
     font-size: 18px;
+    vertical-align: top;
 }
 
 .contact .php-email-form .submit-button {
@@ -27,18 +21,16 @@ input[type="tel"] {
 }
 
 .contact .php-email-form .checkbox {
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 14px;
-}
-
-.contact .php-email-form .checkbox::before {
-}
-
-.contact .php-email-form label .checkbox {
-    width: 45%;
 }
 
 .contact .php-email-form .g-recaptcha {
     margin: auto;
     width: 50%;
+}
+
+.contact .php-email-form input {
+    height: auto;
 }
